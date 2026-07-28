@@ -212,7 +212,7 @@ function renderEventPage() {
   const descEl = document.querySelector("[data-event-description]");
   if (descEl) descEl.textContent = event.description;
 
-  renderPdfButton("[data-event-details-pdf]", event.detailsPdf, "Event Details");
+  renderPdfButton("[data-event-details-pdf]", event.detailsPdf, "Concept Note");
   renderPdfButton("[data-event-guidelines-pdf]", event.guidelinesPdf, "Event Guidelines");
 }
 
