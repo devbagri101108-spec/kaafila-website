@@ -12,8 +12,7 @@ const KAAFILA_CATEGORIES = {
   music:   { label: "Music",        page: "music.html",         thread: "#8b4441", tagline: "Explore the music events of Kaafila" },
   dance:   { label: "Dance",        page: "dance.html",         thread: "#e0993d", tagline: "Explore the dance events of Kaafila" },
   visual:  { label: "Visual Arts",  page: "visual-arts.html",   thread: "#5c7a63", tagline: "Explore the visual arts events of Kaafila" },
-  theatre: { label: "Theatre",      page: "theatre.html",       thread: "#4a3428", tagline: "Explore the theatre events of Kaafila" },
-  photo:   { label: "Photography",  page: "photography.html",   thread: "#7c93a3", tagline: "Explore the photography events of Kaafila" }
+  theatre: { label: "Theatre",      page: "theatre.html",       thread: "#4a3428", tagline: "Explore the theatre events of Kaafila" }
 };
 
 const KAAFILA_EVENTS = [
@@ -123,28 +122,6 @@ const KAAFILA_EVENTS = [
     category: "theatre",
     date: "23rd August",
     description: "Short-form street theatre performed without a formal stage, judged on message and audience engagement.",
-    poster: null,
-    detailsPdf: null,
-    guidelinesPdf: null
-  },
-  {
-    id: "frame-by-frame",
-    title: "Frame by Frame (Photo Story)",
-    subtitle: "",
-    category: "photo",
-    date: "24th August",
-    description: "A 5-photo series telling one story around the Tanahbana theme, submitted in advance and exhibited on the day.",
-    poster: null,
-    detailsPdf: null,
-    guidelinesPdf: null
-  },
-  {
-    id: "portrait-series",
-    title: "Portrait Series",
-    subtitle: "",
-    category: "photo",
-    date: "24th August",
-    description: "A set of 3 portraits exploring character and identity, submitted as prints or digital files.",
     poster: null,
     detailsPdf: null,
     guidelinesPdf: null
